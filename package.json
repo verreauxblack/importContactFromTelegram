@@ -1,0 +1,21 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "To convert json file to vcf file",
+  "main": "contacts.js",
+  "keywords": [
+    "vcard",
+    "hcard",
+    "jcard",
+    "vcf"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RAJ",
+  "license": "ISC",
+  "dependencies": {
+    "vcard-json": "^0.5.2",
+    "vcf": "^2.1.0"
+  }
+}
