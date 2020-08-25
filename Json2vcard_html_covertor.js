@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.readFile('./kjcontact.json', 'utf-8', (err, jsonString)=>{
+fs.readFile('./filename.json', 'utf-8', (err, jsonString)=>{
     if(err){
         console.log(err);
     }else{
