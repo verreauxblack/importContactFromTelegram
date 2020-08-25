@@ -75,6 +75,6 @@ STEP 1.2.2: Then delete the first 55 lines and delete the respective closing bra
    |                           },                                                                                                                                                        |         
    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                         
                               
- STEP 1.2.3: After deleting the lines from coverted json, use "Json2vcard_html_covertor.js" file to convert vcf file.
+ STEP 1.2.3: After deleting the lines from coverted json, use "Json2vcard_html_convertor.js" file to convert vcf file.
  
              Note: (for step 1.2) In this line "fs.readFile('./filename.json', 'utf-8', (err, jsonString)=>{" ,  "./filename.json" is the json file path. you must change this line according to your json file path & name.

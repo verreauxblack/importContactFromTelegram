@@ -11,7 +11,7 @@ fs.readFile('./filename.json', 'utf-8', (err, jsonString)=>{
         var contact =[];
         //console.log(list);
         for(let i =0; i<list.length;i++){
-            fs.appendFile('contacts.vcf', "BEGIN:VCARD" +"\n"+"VERSION:3.0"+"\n"+"FN:"+ list[i].div[1].div[1]['text']+"\n"+ "Tell:"+ list[i].div[1].div[2]['text']+"\n"+"END:VCARD"+"\n", {'flag':'a'}, function(err) {
+            fs.appendFile('contacts.vcf', "BEGIN:VCARD" +"\n"+"VERSION:3.0"+"\n"+"FN:"+ list[i].div[1].div[1]['text']+"\n"+ "TEL;TYPE=CELL:"+ list[i].div[1].div[2]['text']+"\n"+"END:VCARD"+"\n", {'flag':'a'}, function(err) {
                 if (err) {
                     return console.error(err);
                 }
